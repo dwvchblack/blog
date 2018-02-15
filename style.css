@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: crimson;
+    color: white;
+    height: 150px;
+    width: 100%;
+}
+
+h1{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+}
+
+.header_nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.header_nav ul li{
+    display: inline-block;
+    margin: 50px;
+}
+
+.header_nav ul li a{
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
